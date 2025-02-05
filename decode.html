@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Texto</title>
+    <img src="C:\Users\Mariana Dantas\Downloads\Decodificador de Frase\Decodificador - 1 Desktop.png" alt="">
+    <link rel="stylesheet" href="appeareance.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Criptografia de Texto</h1>
+            <textarea id="inputTexto" placeholder="Digite seu texto aqui... (somente letras minúsculas, sem acentos)"></textarea>
+            <div class="button-container">
+                <button onclick="criptografar()">Criptografar</button>
+                <button onclick="descriptografar()">Descriptografar</button>
+                <button onclick="copiarTexto()">Copiar</button>
+            </div>
+            <div id="resultado">
+                <span class="copied-message">Copiado!</span>
+            </div>
+        </div>
+    </div>
+    <script src="cryptofunction.js"></script>
+</body>
+</html>
